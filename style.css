@@ -1,0 +1,98 @@
+#container{
+    background-color:#2E7D32;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 100px;
+    align-items: center;
+    text-align: left;
+    box-shadow: -5px -5px 5px #AAAAAA;
+    border-radius: 50px;
+}
+#container input{
+     width: 250px;
+     height: 20px;
+     padding: 5px;
+     background-color: #2E7D32;
+     color: white;
+     border-radius: 10px;
+     margin: 1px;
+}
+#container #hieght input{
+     width: 118px;
+     height: 20px;
+     background-color: #2E7D32;
+     padding: 5px;
+
+}
+#container #hieght input::placeholder{
+     color:#F1F8E9;
+     opacity: 1; 
+}
+#container h3{
+    margin: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F1F8E9;
+    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+#name-heading
+{
+    letter-spacing: 2px;
+}
+
+
+#calculate-button{
+    width: 130px;
+    height: 50px;
+    background:  #2E7D32 ;
+    align-self: center;
+    appearance: none;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color:#F1F8E9;
+}
+#clear-button{
+     background:#2E7D32;
+     width: 130px;
+     height: 50px;
+     border-radius: 10px;
+     color:#F1F8E9;
+}
+#age{
+    height: 100px;
+}
+#result-container{
+    margin-top: 20px;
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;   
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#result-text{
+    padding: 10px;
+    font-size: 0.8rem;
+    
+}
+.text{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    
+}
